@@ -1,0 +1,15 @@
+[31mCMake Error at /opt/ros/humble/share/nav2_rviz_plugins/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):
+  Found package configuration file:
+
+    /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake
+
+  but it set Qt5_FOUND to FALSE so package "Qt5" is considered to be NOT
+  FOUND.  Reason given by package:
+
+  The Qt5 package requires at least one component
+
+Call Stack (most recent call first):
+  /opt/ros/humble/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig.cmake:41 (include)
+  CMakeLists.txt:30 (find_package)
+
+[0m

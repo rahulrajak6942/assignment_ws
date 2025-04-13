@@ -1,0 +1,41 @@
+[1.428s] Invoking command in '/home/rahul/assignment_ws/build/testbed_description': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/rahul/assignment_ws/build/testbed_description -- -j12 -l12
+[3.808s] Invoked command in '/home/rahul/assignment_ws/build/testbed_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/rahul/assignment_ws/build/testbed_description -- -j12 -l12
+[3.812s] Invoking command in '/home/rahul/assignment_ws/build/testbed_description': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/rahul/assignment_ws/build/testbed_description
+[3.893s] -- Install configuration: ""
+[3.895s] -- Execute custom install script
+[3.899s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/meshes/base_link.stl
+[3.899s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/meshes/caster_1.stl
+[3.900s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/meshes/caster_2.stl
+[3.901s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/meshes/caster_3.stl
+[3.901s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/meshes/caster_4.stl
+[3.902s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/meshes/dummy_link_1.stl
+[3.903s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/meshes/imu_link_1.stl
+[3.903s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/meshes/left_wheel_1.stl
+[3.905s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/meshes/lidar_link_1.stl
+[3.905s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/meshes/right_wheel_1.stl
+[3.907s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/urdf/materials.xacro
+[3.909s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/urdf/testbed.gazebo
+[3.909s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/urdf/testbed.trans
+[3.909s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/urdf/testbed.xacro
+[3.909s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/launch/robot_description.launch.py
+[3.910s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/launch/testbed_rviz_barebones.launch.py
+[3.912s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/rviz/full_bringup.rviz
+[3.913s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/rviz/testbed_barebones.rviz
+[3.913s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/rviz/urdf_gazebo.rviz
+[3.913s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/rviz/urdf_vis_rviz
+[3.916s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/ament_index/resource_index/package_run_dependencies/testbed_description
+[3.917s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/ament_index/resource_index/parent_prefix_path/testbed_description
+[3.917s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/environment/ament_prefix_path.sh
+[3.918s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/environment/ament_prefix_path.dsv
+[3.918s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/environment/path.sh
+[3.919s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/environment/path.dsv
+[3.919s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/local_setup.bash
+[3.920s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/local_setup.sh
+[3.921s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/local_setup.zsh
+[3.921s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/local_setup.dsv
+[3.922s] -- Symlinking: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/package.dsv
+[3.983s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/ament_index/resource_index/packages/testbed_description
+[3.984s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/cmake/testbed_descriptionConfig.cmake
+[3.984s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/cmake/testbed_descriptionConfig-version.cmake
+[3.985s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_description/share/testbed_description/package.xml
+[3.992s] Invoked command in '/home/rahul/assignment_ws/build/testbed_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/rahul/assignment_ws/build/testbed_description

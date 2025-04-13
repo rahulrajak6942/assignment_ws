@@ -1,0 +1,38 @@
+[1.617s] Invoking command in '/home/rahul/assignment_ws/build/testbed_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/rahul/assignment_ws/build/testbed_navigation -- -j12 -l12
+[3.708s] Invoked command in '/home/rahul/assignment_ws/build/testbed_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/rahul/assignment_ws/build/testbed_navigation -- -j12 -l12
+[3.781s] Invoking command in '/home/rahul/assignment_ws/build/testbed_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/rahul/assignment_ws/build/testbed_navigation
+[3.826s] -- Install configuration: ""
+[3.828s] -- Execute custom install script
+[3.835s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/launch/__pycache__/testbed_navigation.launch.cpython-310.pyc
+[3.835s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/launch/localization.launch.py
+[3.836s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/launch/map_loader.launch.py
+[3.836s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/launch/navigation.launch.py
+[3.838s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/launch/testbed_navigation.launch.py
+[3.839s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/launch/view_map.launch.py
+[3.841s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/maps/testbed_world.pgm
+[3.842s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/maps/testbed_world.yaml
+[3.843s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/config/amcl_params.yaml
+[3.843s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/config/bt_navigator_params.yaml
+[3.844s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/config/controller_params.yaml
+[3.844s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/config/global_costmap_params.yaml
+[3.845s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/config/local_costmap_params.yaml
+[3.845s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/config/nav2_params.yaml
+[3.846s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/config/planner_params.yaml
+[3.847s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/rviz/map_view.rviz
+[3.849s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/rviz/nav2_default_view.rviz
+[3.851s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/ament_index/resource_index/package_run_dependencies/testbed_navigation
+[3.854s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/ament_index/resource_index/parent_prefix_path/testbed_navigation
+[3.857s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/environment/ament_prefix_path.sh
+[3.858s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/environment/ament_prefix_path.dsv
+[3.859s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/environment/path.sh
+[3.860s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/environment/path.dsv
+[3.863s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/local_setup.bash
+[3.863s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/local_setup.sh
+[3.863s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/local_setup.zsh
+[3.864s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/local_setup.dsv
+[3.864s] -- Symlinking: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.dsv
+[3.964s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/ament_index/resource_index/packages/testbed_navigation
+[3.965s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/cmake/testbed_navigationConfig.cmake
+[3.967s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/cmake/testbed_navigationConfig-version.cmake
+[3.967s] -- Up-to-date symlink: /home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.xml
+[4.134s] Invoked command in '/home/rahul/assignment_ws/build/testbed_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/rahul/assignment_ws/build/testbed_navigation

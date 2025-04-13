@@ -1,0 +1,6 @@
+bt_navigator:
+  ros__parameters:
+    behavior_tree: "navigate_w_replanning_and_recovery.xml"
+    global_frame: "map"
+    robot_base_frame: "base_link"
+    transform_tolerance: 0.1

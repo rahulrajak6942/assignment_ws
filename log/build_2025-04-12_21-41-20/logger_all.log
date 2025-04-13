@@ -1,0 +1,350 @@
+[0.098s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.098s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5b4cd98af0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5b4cd196c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5b4cd196c0>>)
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.256s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rahul/assignment_ws'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942) by extension 'ros'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942) by extensions ['cmake', 'python']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942) by extension 'cmake'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942) by extension 'python'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942) by extensions ['python_setup_py']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942) by extension 'python_setup_py'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_bringup) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_bringup) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_bringup) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_bringup) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_bringup) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_bringup) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_bringup) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_bringup) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/l1-ros-internship-assignment-rahulrajak6942/testbed_bringup' with type 'ros.ament_cmake' and name 'testbed_bringup'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_description) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_description) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_description) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_description) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_description) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_description) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_description) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_description) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_description) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'src/l1-ros-internship-assignment-rahulrajak6942/testbed_description' with type 'ros.ament_cmake' and name 'testbed_description'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_gazebo) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_gazebo) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_gazebo) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_gazebo) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_gazebo) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_gazebo) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_gazebo) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-ros-internship-assignment-rahulrajak6942/testbed_gazebo) by extension 'ros'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package 'src/l1-ros-internship-assignment-rahulrajak6942/testbed_gazebo' with type 'ros.ament_cmake' and name 'testbed_gazebo'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_navigation) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_navigation) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_navigation) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_navigation) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_navigation) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_navigation) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_navigation) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_navigation) by extension 'ros'
+[0.275s] DEBUG:colcon.colcon_core.package_identification:Package 'src/testbed_navigation' with type 'ros.ament_cmake' and name 'testbed_navigation'
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.308s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/rahul/assignment_ws/install
+[0.309s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 39 installed packages in /home/rahul/microros_ws/install
+[0.311s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 392 installed packages in /opt/ros/humble
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'cmake_target' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.356s] DEBUG:colcon.colcon_core.verb:Building package 'testbed_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rahul/assignment_ws/build/testbed_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rahul/assignment_ws/install/testbed_bringup', 'merge_install': False, 'path': '/home/rahul/assignment_ws/src/l1-ros-internship-assignment-rahulrajak6942/testbed_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'cmake_target' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'testbed_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rahul/assignment_ws/build/testbed_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rahul/assignment_ws/install/testbed_description', 'merge_install': False, 'path': '/home/rahul/assignment_ws/src/l1-ros-internship-assignment-rahulrajak6942/testbed_description', 'symlink_install': False, 'test_result_base': None}
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'cmake_target' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'testbed_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rahul/assignment_ws/build/testbed_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rahul/assignment_ws/install/testbed_navigation', 'merge_install': False, 'path': '/home/rahul/assignment_ws/src/testbed_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'testbed_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rahul/assignment_ws/build/testbed_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rahul/assignment_ws/install/testbed_gazebo', 'merge_install': False, 'path': '/home/rahul/assignment_ws/src/l1-ros-internship-assignment-rahulrajak6942/testbed_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.358s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.358s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.359s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rahul/assignment_ws/src/l1-ros-internship-assignment-rahulrajak6942/testbed_description' with build type 'ament_cmake'
+[0.359s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rahul/assignment_ws/src/l1-ros-internship-assignment-rahulrajak6942/testbed_description'
+[0.361s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.362s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.366s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/rahul/catkin_ws/devel'
+[0.368s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rahul/assignment_ws/src/l1-ros-internship-assignment-rahulrajak6942/testbed_bringup' with build type 'ament_cmake'
+[0.368s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rahul/assignment_ws/src/l1-ros-internship-assignment-rahulrajak6942/testbed_bringup'
+[0.368s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.368s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.374s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/rahul/catkin_ws/devel'
+[0.375s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rahul/assignment_ws/src/testbed_navigation' with build type 'ament_cmake'
+[0.375s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rahul/assignment_ws/src/testbed_navigation'
+[0.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.380s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/rahul/catkin_ws/devel'
+[0.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/assignment_ws/build/testbed_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/rahul/assignment_ws/src/l1-ros-internship-assignment-rahulrajak6942/testbed_bringup -DCMAKE_INSTALL_PREFIX=/home/rahul/assignment_ws/install/testbed_bringup
+[0.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/assignment_ws/build/testbed_description': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/rahul/assignment_ws/src/l1-ros-internship-assignment-rahulrajak6942/testbed_description -DCMAKE_INSTALL_PREFIX=/home/rahul/assignment_ws/install/testbed_description
+[0.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/assignment_ws/build/testbed_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/rahul/assignment_ws/build/testbed_navigation -- -j12 -l12
+[0.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/assignment_ws/build/testbed_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/rahul/assignment_ws/build/testbed_navigation -- -j12 -l12
+[0.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/assignment_ws/build/testbed_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/rahul/assignment_ws/build/testbed_navigation
+[0.569s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_navigation)
+[0.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/assignment_ws/build/testbed_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/rahul/assignment_ws/build/testbed_navigation
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_navigation' for CMake module files
+[0.574s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_navigation' for CMake config files
+[0.574s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_navigation', 'cmake_prefix_path')
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/hook/cmake_prefix_path.ps1'
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/hook/cmake_prefix_path.dsv'
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/hook/cmake_prefix_path.sh'
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_navigation/bin'
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_navigation/lib/pkgconfig/testbed_navigation.pc'
+[0.578s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_navigation/lib/python3.10/site-packages'
+[0.578s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_navigation/bin'
+[0.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.ps1'
+[0.579s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.dsv'
+[0.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.sh'
+[0.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.bash'
+[0.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.zsh'
+[0.583s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/assignment_ws/install/testbed_navigation/share/colcon-core/packages/testbed_navigation)
+[0.583s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_navigation)
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_navigation' for CMake module files
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_navigation' for CMake config files
+[0.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_navigation', 'cmake_prefix_path')
+[0.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/hook/cmake_prefix_path.ps1'
+[0.585s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/hook/cmake_prefix_path.dsv'
+[0.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/hook/cmake_prefix_path.sh'
+[0.587s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_navigation/bin'
+[0.587s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_navigation/lib/pkgconfig/testbed_navigation.pc'
+[0.587s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_navigation/lib/python3.10/site-packages'
+[0.587s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_navigation/bin'
+[0.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.ps1'
+[0.588s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.dsv'
+[0.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.sh'
+[0.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.bash'
+[0.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.zsh'
+[0.590s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/assignment_ws/install/testbed_navigation/share/colcon-core/packages/testbed_navigation)
+[0.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/assignment_ws/build/testbed_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/rahul/assignment_ws/src/l1-ros-internship-assignment-rahulrajak6942/testbed_description -DCMAKE_INSTALL_PREFIX=/home/rahul/assignment_ws/install/testbed_description
+[0.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/assignment_ws/build/testbed_description': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/rahul/assignment_ws/build/testbed_description -- -j12 -l12
+[0.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/assignment_ws/build/testbed_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/rahul/assignment_ws/src/l1-ros-internship-assignment-rahulrajak6942/testbed_bringup -DCMAKE_INSTALL_PREFIX=/home/rahul/assignment_ws/install/testbed_bringup
+[0.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/assignment_ws/build/testbed_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/rahul/assignment_ws/build/testbed_bringup -- -j12 -l12
+[0.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/assignment_ws/build/testbed_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/rahul/assignment_ws/build/testbed_description -- -j12 -l12
+[0.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/assignment_ws/build/testbed_description': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/rahul/assignment_ws/build/testbed_description
+[0.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/assignment_ws/build/testbed_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/rahul/assignment_ws/build/testbed_bringup -- -j12 -l12
+[0.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/assignment_ws/build/testbed_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/rahul/assignment_ws/build/testbed_bringup
+[0.932s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_description)
+[0.933s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_description' for CMake module files
+[0.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/assignment_ws/build/testbed_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/rahul/assignment_ws/build/testbed_description
+[0.934s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_description' for CMake config files
+[0.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_description', 'cmake_prefix_path')
+[0.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/assignment_ws/install/testbed_description/share/testbed_description/hook/cmake_prefix_path.ps1'
+[0.935s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/assignment_ws/install/testbed_description/share/testbed_description/hook/cmake_prefix_path.dsv'
+[0.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/assignment_ws/install/testbed_description/share/testbed_description/hook/cmake_prefix_path.sh'
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_description/bin'
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_description/lib/pkgconfig/testbed_description.pc'
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_description/lib/python3.10/site-packages'
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_description/bin'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_description/share/testbed_description/package.ps1'
+[0.937s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/assignment_ws/install/testbed_description/share/testbed_description/package.dsv'
+[0.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_description/share/testbed_description/package.sh'
+[0.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_description/share/testbed_description/package.bash'
+[0.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_description/share/testbed_description/package.zsh'
+[0.938s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/assignment_ws/install/testbed_description/share/colcon-core/packages/testbed_description)
+[0.938s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_description)
+[0.938s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_description' for CMake module files
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_description' for CMake config files
+[0.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_description', 'cmake_prefix_path')
+[0.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/assignment_ws/install/testbed_description/share/testbed_description/hook/cmake_prefix_path.ps1'
+[0.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/assignment_ws/install/testbed_description/share/testbed_description/hook/cmake_prefix_path.dsv'
+[0.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/assignment_ws/install/testbed_description/share/testbed_description/hook/cmake_prefix_path.sh'
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_description/bin'
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_description/lib/pkgconfig/testbed_description.pc'
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_description/lib/python3.10/site-packages'
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_description/bin'
+[0.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_description/share/testbed_description/package.ps1'
+[0.945s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/assignment_ws/install/testbed_description/share/testbed_description/package.dsv'
+[0.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_description/share/testbed_description/package.sh'
+[0.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_description/share/testbed_description/package.bash'
+[0.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_description/share/testbed_description/package.zsh'
+[0.946s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/assignment_ws/install/testbed_description/share/colcon-core/packages/testbed_description)
+[0.947s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rahul/assignment_ws/src/l1-ros-internship-assignment-rahulrajak6942/testbed_gazebo' with build type 'ament_cmake'
+[0.947s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rahul/assignment_ws/src/l1-ros-internship-assignment-rahulrajak6942/testbed_gazebo'
+[0.947s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.947s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.953s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/rahul/catkin_ws/devel'
+[0.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_bringup)
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_bringup' for CMake module files
+[0.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/assignment_ws/build/testbed_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/rahul/assignment_ws/build/testbed_bringup
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_bringup' for CMake config files
+[0.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_bringup', 'cmake_prefix_path')
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/assignment_ws/install/testbed_bringup/share/testbed_bringup/hook/cmake_prefix_path.ps1'
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/assignment_ws/install/testbed_bringup/share/testbed_bringup/hook/cmake_prefix_path.dsv'
+[0.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/assignment_ws/install/testbed_bringup/share/testbed_bringup/hook/cmake_prefix_path.sh'
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_bringup/bin'
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_bringup/lib/pkgconfig/testbed_bringup.pc'
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_bringup/lib/python3.10/site-packages'
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_bringup/bin'
+[0.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_bringup/share/testbed_bringup/package.ps1'
+[0.973s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/assignment_ws/install/testbed_bringup/share/testbed_bringup/package.dsv'
+[0.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_bringup/share/testbed_bringup/package.sh'
+[0.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_bringup/share/testbed_bringup/package.bash'
+[0.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_bringup/share/testbed_bringup/package.zsh'
+[0.975s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/assignment_ws/install/testbed_bringup/share/colcon-core/packages/testbed_bringup)
+[0.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_bringup)
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_bringup' for CMake module files
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_bringup' for CMake config files
+[0.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_bringup', 'cmake_prefix_path')
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/assignment_ws/install/testbed_bringup/share/testbed_bringup/hook/cmake_prefix_path.ps1'
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/assignment_ws/install/testbed_bringup/share/testbed_bringup/hook/cmake_prefix_path.dsv'
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/assignment_ws/install/testbed_bringup/share/testbed_bringup/hook/cmake_prefix_path.sh'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_bringup/bin'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_bringup/lib/pkgconfig/testbed_bringup.pc'
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_bringup/lib/python3.10/site-packages'
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_bringup/bin'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_bringup/share/testbed_bringup/package.ps1'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/assignment_ws/install/testbed_bringup/share/testbed_bringup/package.dsv'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_bringup/share/testbed_bringup/package.sh'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_bringup/share/testbed_bringup/package.bash'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_bringup/share/testbed_bringup/package.zsh'
+[0.980s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/assignment_ws/install/testbed_bringup/share/colcon-core/packages/testbed_bringup)
+[0.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/assignment_ws/build/testbed_gazebo': CMAKE_PREFIX_PATH=/home/rahul/assignment_ws/install/testbed_description:/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:/home/rahul/catkin_ws/devel:/home/rahul/assignment_ws/install/testbed_navigation:/home/rahul/assignment_ws/install/testbed_gazebo:/home/rahul/assignment_ws/install/testbed_bringup:/home/rahul/microros_ws/install/micro_ros_demos_rclc:/home/rahul/microros_ws/install/common_interfaces:/home/rahul/microros_ws/install/visualization_msgs:/home/rahul/microros_ws/install/test_msgs:/home/rahul/microros_ws/install/example_interfaces:/home/rahul/microros_ws/install/action_msgs:/home/rahul/microros_ws/install/unique_identifier_msgs:/home/rahul/microros_ws/install/trajectory_msgs:/home/rahul/microros_ws/install/stereo_msgs:/home/rahul/microros_ws/install/std_srvs:/home/rahul/microros_ws/install/shape_msgs:/home/rahul/microros_ws/install/sensor_msgs:/home/rahul/microros_ws/install/nav_msgs:/home/rahul/microros_ws/install/diagnostic_msgs:/home/rahul/microros_ws/install/geometry_msgs:/home/rahul/microros_ws/install/actionlib_msgs:/home/rahul/microros_ws/install/std_msgs:/home/rahul/microros_ws/install/statistics_msgs:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rahul/microros_ws/install/rmw_microxrcedds:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rahul/microros_ws/install/rosgraph_msgs:/home/rahul/microros_ws/install/rclc_parameter:/home/rahul/microros_ws/install/rclc:/home/rahul/microros_ws/install/composition_interfaces:/home/rahul/microros_ws/install/rcl_interfaces:/home/rahul/microros_ws/install/microxrcedds_client:/home/rahul/microros_ws/install/microcdr:/home/rahul/microros_ws/install/micro_ros_utilities:/home/rahul/microros_ws/install/micro_ros_setup:/home/rahul/microros_ws/install/micro_ros_agent:/home/rahul/microros_ws/install/micro_ros_msgs:/home/rahul/microros_ws/install/lifecycle_msgs:/home/rahul/microros_ws/install/complex_msgs:/home/rahul/microros_ws/install/builtin_interfaces /usr/bin/cmake /home/rahul/assignment_ws/src/l1-ros-internship-assignment-rahulrajak6942/testbed_gazebo -DCMAKE_INSTALL_PREFIX=/home/rahul/assignment_ws/install/testbed_gazebo
+[1.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/assignment_ws/build/testbed_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/rahul/assignment_ws/install/testbed_description:/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:/home/rahul/catkin_ws/devel:/home/rahul/assignment_ws/install/testbed_navigation:/home/rahul/assignment_ws/install/testbed_gazebo:/home/rahul/assignment_ws/install/testbed_bringup:/home/rahul/microros_ws/install/micro_ros_demos_rclc:/home/rahul/microros_ws/install/common_interfaces:/home/rahul/microros_ws/install/visualization_msgs:/home/rahul/microros_ws/install/test_msgs:/home/rahul/microros_ws/install/example_interfaces:/home/rahul/microros_ws/install/action_msgs:/home/rahul/microros_ws/install/unique_identifier_msgs:/home/rahul/microros_ws/install/trajectory_msgs:/home/rahul/microros_ws/install/stereo_msgs:/home/rahul/microros_ws/install/std_srvs:/home/rahul/microros_ws/install/shape_msgs:/home/rahul/microros_ws/install/sensor_msgs:/home/rahul/microros_ws/install/nav_msgs:/home/rahul/microros_ws/install/diagnostic_msgs:/home/rahul/microros_ws/install/geometry_msgs:/home/rahul/microros_ws/install/actionlib_msgs:/home/rahul/microros_ws/install/std_msgs:/home/rahul/microros_ws/install/statistics_msgs:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rahul/microros_ws/install/rmw_microxrcedds:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rahul/microros_ws/install/rosgraph_msgs:/home/rahul/microros_ws/install/rclc_parameter:/home/rahul/microros_ws/install/rclc:/home/rahul/microros_ws/install/composition_interfaces:/home/rahul/microros_ws/install/rcl_interfaces:/home/rahul/microros_ws/install/microxrcedds_client:/home/rahul/microros_ws/install/microcdr:/home/rahul/microros_ws/install/micro_ros_utilities:/home/rahul/microros_ws/install/micro_ros_setup:/home/rahul/microros_ws/install/micro_ros_agent:/home/rahul/microros_ws/install/micro_ros_msgs:/home/rahul/microros_ws/install/lifecycle_msgs:/home/rahul/microros_ws/install/complex_msgs:/home/rahul/microros_ws/install/builtin_interfaces /usr/bin/cmake /home/rahul/assignment_ws/src/l1-ros-internship-assignment-rahulrajak6942/testbed_gazebo -DCMAKE_INSTALL_PREFIX=/home/rahul/assignment_ws/install/testbed_gazebo
+[1.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/assignment_ws/build/testbed_gazebo': CMAKE_PREFIX_PATH=/home/rahul/assignment_ws/install/testbed_description:/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:/home/rahul/catkin_ws/devel:/home/rahul/assignment_ws/install/testbed_navigation:/home/rahul/assignment_ws/install/testbed_gazebo:/home/rahul/assignment_ws/install/testbed_bringup:/home/rahul/microros_ws/install/micro_ros_demos_rclc:/home/rahul/microros_ws/install/common_interfaces:/home/rahul/microros_ws/install/visualization_msgs:/home/rahul/microros_ws/install/test_msgs:/home/rahul/microros_ws/install/example_interfaces:/home/rahul/microros_ws/install/action_msgs:/home/rahul/microros_ws/install/unique_identifier_msgs:/home/rahul/microros_ws/install/trajectory_msgs:/home/rahul/microros_ws/install/stereo_msgs:/home/rahul/microros_ws/install/std_srvs:/home/rahul/microros_ws/install/shape_msgs:/home/rahul/microros_ws/install/sensor_msgs:/home/rahul/microros_ws/install/nav_msgs:/home/rahul/microros_ws/install/diagnostic_msgs:/home/rahul/microros_ws/install/geometry_msgs:/home/rahul/microros_ws/install/actionlib_msgs:/home/rahul/microros_ws/install/std_msgs:/home/rahul/microros_ws/install/statistics_msgs:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rahul/microros_ws/install/rmw_microxrcedds:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rahul/microros_ws/install/rosgraph_msgs:/home/rahul/microros_ws/install/rclc_parameter:/home/rahul/microros_ws/install/rclc:/home/rahul/microros_ws/install/composition_interfaces:/home/rahul/microros_ws/install/rcl_interfaces:/home/rahul/microros_ws/install/microxrcedds_client:/home/rahul/microros_ws/install/microcdr:/home/rahul/microros_ws/install/micro_ros_utilities:/home/rahul/microros_ws/install/micro_ros_setup:/home/rahul/microros_ws/install/micro_ros_agent:/home/rahul/microros_ws/install/micro_ros_msgs:/home/rahul/microros_ws/install/lifecycle_msgs:/home/rahul/microros_ws/install/complex_msgs:/home/rahul/microros_ws/install/builtin_interfaces /usr/bin/cmake --build /home/rahul/assignment_ws/build/testbed_gazebo -- -j12 -l12
+[1.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/assignment_ws/build/testbed_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/rahul/assignment_ws/install/testbed_description:/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:/home/rahul/catkin_ws/devel:/home/rahul/assignment_ws/install/testbed_navigation:/home/rahul/assignment_ws/install/testbed_gazebo:/home/rahul/assignment_ws/install/testbed_bringup:/home/rahul/microros_ws/install/micro_ros_demos_rclc:/home/rahul/microros_ws/install/common_interfaces:/home/rahul/microros_ws/install/visualization_msgs:/home/rahul/microros_ws/install/test_msgs:/home/rahul/microros_ws/install/example_interfaces:/home/rahul/microros_ws/install/action_msgs:/home/rahul/microros_ws/install/unique_identifier_msgs:/home/rahul/microros_ws/install/trajectory_msgs:/home/rahul/microros_ws/install/stereo_msgs:/home/rahul/microros_ws/install/std_srvs:/home/rahul/microros_ws/install/shape_msgs:/home/rahul/microros_ws/install/sensor_msgs:/home/rahul/microros_ws/install/nav_msgs:/home/rahul/microros_ws/install/diagnostic_msgs:/home/rahul/microros_ws/install/geometry_msgs:/home/rahul/microros_ws/install/actionlib_msgs:/home/rahul/microros_ws/install/std_msgs:/home/rahul/microros_ws/install/statistics_msgs:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rahul/microros_ws/install/rmw_microxrcedds:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rahul/microros_ws/install/rosgraph_msgs:/home/rahul/microros_ws/install/rclc_parameter:/home/rahul/microros_ws/install/rclc:/home/rahul/microros_ws/install/composition_interfaces:/home/rahul/microros_ws/install/rcl_interfaces:/home/rahul/microros_ws/install/microxrcedds_client:/home/rahul/microros_ws/install/microcdr:/home/rahul/microros_ws/install/micro_ros_utilities:/home/rahul/microros_ws/install/micro_ros_setup:/home/rahul/microros_ws/install/micro_ros_agent:/home/rahul/microros_ws/install/micro_ros_msgs:/home/rahul/microros_ws/install/lifecycle_msgs:/home/rahul/microros_ws/install/complex_msgs:/home/rahul/microros_ws/install/builtin_interfaces /usr/bin/cmake --build /home/rahul/assignment_ws/build/testbed_gazebo -- -j12 -l12
+[1.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/assignment_ws/build/testbed_gazebo': CMAKE_PREFIX_PATH=/home/rahul/assignment_ws/install/testbed_description:/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:/home/rahul/catkin_ws/devel:/home/rahul/assignment_ws/install/testbed_navigation:/home/rahul/assignment_ws/install/testbed_gazebo:/home/rahul/assignment_ws/install/testbed_bringup:/home/rahul/microros_ws/install/micro_ros_demos_rclc:/home/rahul/microros_ws/install/common_interfaces:/home/rahul/microros_ws/install/visualization_msgs:/home/rahul/microros_ws/install/test_msgs:/home/rahul/microros_ws/install/example_interfaces:/home/rahul/microros_ws/install/action_msgs:/home/rahul/microros_ws/install/unique_identifier_msgs:/home/rahul/microros_ws/install/trajectory_msgs:/home/rahul/microros_ws/install/stereo_msgs:/home/rahul/microros_ws/install/std_srvs:/home/rahul/microros_ws/install/shape_msgs:/home/rahul/microros_ws/install/sensor_msgs:/home/rahul/microros_ws/install/nav_msgs:/home/rahul/microros_ws/install/diagnostic_msgs:/home/rahul/microros_ws/install/geometry_msgs:/home/rahul/microros_ws/install/actionlib_msgs:/home/rahul/microros_ws/install/std_msgs:/home/rahul/microros_ws/install/statistics_msgs:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rahul/microros_ws/install/rmw_microxrcedds:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rahul/microros_ws/install/rosgraph_msgs:/home/rahul/microros_ws/install/rclc_parameter:/home/rahul/microros_ws/install/rclc:/home/rahul/microros_ws/install/composition_interfaces:/home/rahul/microros_ws/install/rcl_interfaces:/home/rahul/microros_ws/install/microxrcedds_client:/home/rahul/microros_ws/install/microcdr:/home/rahul/microros_ws/install/micro_ros_utilities:/home/rahul/microros_ws/install/micro_ros_setup:/home/rahul/microros_ws/install/micro_ros_agent:/home/rahul/microros_ws/install/micro_ros_msgs:/home/rahul/microros_ws/install/lifecycle_msgs:/home/rahul/microros_ws/install/complex_msgs:/home/rahul/microros_ws/install/builtin_interfaces /usr/bin/cmake --install /home/rahul/assignment_ws/build/testbed_gazebo
+[1.532s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_gazebo)
+[1.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/assignment_ws/build/testbed_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/rahul/assignment_ws/install/testbed_description:/opt/ros/humble:/home/rahul/microros_ws/install/sensor_msgs_py:/home/rahul/catkin_ws/devel:/home/rahul/assignment_ws/install/testbed_navigation:/home/rahul/assignment_ws/install/testbed_gazebo:/home/rahul/assignment_ws/install/testbed_bringup:/home/rahul/microros_ws/install/micro_ros_demos_rclc:/home/rahul/microros_ws/install/common_interfaces:/home/rahul/microros_ws/install/visualization_msgs:/home/rahul/microros_ws/install/test_msgs:/home/rahul/microros_ws/install/example_interfaces:/home/rahul/microros_ws/install/action_msgs:/home/rahul/microros_ws/install/unique_identifier_msgs:/home/rahul/microros_ws/install/trajectory_msgs:/home/rahul/microros_ws/install/stereo_msgs:/home/rahul/microros_ws/install/std_srvs:/home/rahul/microros_ws/install/shape_msgs:/home/rahul/microros_ws/install/sensor_msgs:/home/rahul/microros_ws/install/nav_msgs:/home/rahul/microros_ws/install/diagnostic_msgs:/home/rahul/microros_ws/install/geometry_msgs:/home/rahul/microros_ws/install/actionlib_msgs:/home/rahul/microros_ws/install/std_msgs:/home/rahul/microros_ws/install/statistics_msgs:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rahul/microros_ws/install/rmw_microxrcedds:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rahul/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rahul/microros_ws/install/rosgraph_msgs:/home/rahul/microros_ws/install/rclc_parameter:/home/rahul/microros_ws/install/rclc:/home/rahul/microros_ws/install/composition_interfaces:/home/rahul/microros_ws/install/rcl_interfaces:/home/rahul/microros_ws/install/microxrcedds_client:/home/rahul/microros_ws/install/microcdr:/home/rahul/microros_ws/install/micro_ros_utilities:/home/rahul/microros_ws/install/micro_ros_setup:/home/rahul/microros_ws/install/micro_ros_agent:/home/rahul/microros_ws/install/micro_ros_msgs:/home/rahul/microros_ws/install/lifecycle_msgs:/home/rahul/microros_ws/install/complex_msgs:/home/rahul/microros_ws/install/builtin_interfaces /usr/bin/cmake --install /home/rahul/assignment_ws/build/testbed_gazebo
+[1.533s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_gazebo' for CMake module files
+[1.534s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_gazebo' for CMake config files
+[1.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_gazebo', 'cmake_prefix_path')
+[1.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/hook/cmake_prefix_path.ps1'
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/hook/cmake_prefix_path.dsv'
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/hook/cmake_prefix_path.sh'
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_gazebo/bin'
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_gazebo/lib/pkgconfig/testbed_gazebo.pc'
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_gazebo/lib/python3.10/site-packages'
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_gazebo/bin'
+[1.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/package.ps1'
+[1.540s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/package.dsv'
+[1.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/package.sh'
+[1.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/package.bash'
+[1.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/package.zsh'
+[1.542s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/assignment_ws/install/testbed_gazebo/share/colcon-core/packages/testbed_gazebo)
+[1.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_gazebo)
+[1.544s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_gazebo' for CMake module files
+[1.545s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_gazebo' for CMake config files
+[1.546s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_gazebo', 'cmake_prefix_path')
+[1.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/hook/cmake_prefix_path.ps1'
+[1.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/hook/cmake_prefix_path.dsv'
+[1.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/hook/cmake_prefix_path.sh'
+[1.548s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_gazebo/bin'
+[1.548s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_gazebo/lib/pkgconfig/testbed_gazebo.pc'
+[1.549s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_gazebo/lib/python3.10/site-packages'
+[1.549s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/assignment_ws/install/testbed_gazebo/bin'
+[1.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/package.ps1'
+[1.549s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/package.dsv'
+[1.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/package.sh'
+[1.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/package.bash'
+[1.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/package.zsh'
+[1.551s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/assignment_ws/install/testbed_gazebo/share/colcon-core/packages/testbed_gazebo)
+[1.551s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.551s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.551s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.551s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.558s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.558s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.558s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.580s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.581s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rahul/assignment_ws/install/local_setup.ps1'
+[1.582s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rahul/assignment_ws/install/_local_setup_util_ps1.py'
+[1.585s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rahul/assignment_ws/install/setup.ps1'
+[1.588s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rahul/assignment_ws/install/local_setup.sh'
+[1.588s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rahul/assignment_ws/install/_local_setup_util_sh.py'
+[1.588s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rahul/assignment_ws/install/setup.sh'
+[1.591s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rahul/assignment_ws/install/local_setup.bash'
+[1.591s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rahul/assignment_ws/install/setup.bash'
+[1.595s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rahul/assignment_ws/install/local_setup.zsh'
+[1.595s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rahul/assignment_ws/install/setup.zsh'
